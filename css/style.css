@@ -69,6 +69,20 @@ body {
     color: var(--heading-color);
 }
 
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+
+.brand-tagline {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--text-color);
+    opacity: 0.8;
+    align-self: flex-end;
+}
+
 .nav-link {
     color: var(--heading-color) !important;
     margin: 0 10px;
