@@ -527,6 +527,21 @@ body {
     color: var(--btn-secondary-hover-text) !important;
 }
 
+.btn-youtube {
+    background-color: var(--btn-secondary-bg);
+    border: 1px solid var(--btn-secondary-border);
+    color: var(--btn-secondary-text) !important;
+    font-weight: 600;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-youtube:hover {
+    background-color: #FF0000;
+    border-color: #FF0000;
+    color: #fff !important;
+}
+
 .btn-danger {
     background-color: #D90429; /* Canlı Kırmızı */
     border-color: #D90429;
