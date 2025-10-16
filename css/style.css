@@ -125,7 +125,7 @@ body {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/hero-lastik.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/galeri/hero.jpg') no-repeat center center/cover;
     height: 90vh;
     display: flex;
     align-items: center;
@@ -142,6 +142,7 @@ body {
 
 .hero h1 {
     font-weight: 700 !important; /* Bootstrap'in display-4'ünü ezmek için */
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
 }
 
 .hero-features {
@@ -155,6 +156,7 @@ body {
     gap: 8px;
     font-size: 1.1rem;
     font-weight: 600;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
 }
 
 .text-patlat {
