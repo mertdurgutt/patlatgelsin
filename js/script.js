@@ -88,4 +88,17 @@ document.addEventListener('DOMContentLoaded', function () {
             themeToggle.classList.add('light-mode');
         }
     });
+
+    // Galeri Modal
+    const galleryModal = document.getElementById('galleryModal');
+    if (galleryModal) {
+        galleryModal.addEventListener('show.bs.modal', event => {
+            // Tıklanan butonu al
+            const button = event.relatedTarget;
+            // Data-img-src'den resim yolunu al
+            const imgSrc = button.getAttribute('data-img-src');
+            const modalImage = galleryModal.querySelector('#modalImage');
+            modalImage.src = imgSrc;
+        });
+    }
 });
